@@ -1,6 +1,6 @@
 ﻿# 适配模式
 
-待适配类
+待适配类（USB充电线类）
 ```
 public class USBLine
 {
@@ -11,7 +11,7 @@ public class USBLine
 }
 ```
 
-接口标志适配标准
+接口标志适配标准（充电线接口）
 ```
 public interface IChargingLine
 {
@@ -19,7 +19,7 @@ public interface IChargingLine
 }
 ```
 
-对象适配器模式
+对象适配器模式（适配Type充电线类）
 ```
 public class USBTypecLineAdapter : IChargingLine
 {
@@ -38,7 +38,7 @@ public class USBTypecLineAdapter : IChargingLine
 }
 ```
 
-类适配器模式
+类适配器模式（适配lighting充电线类）
 ```
 public class USBlightingLineAdapter : USBLine, IChargingLine
 {
