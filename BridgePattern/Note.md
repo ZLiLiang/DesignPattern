@@ -90,7 +90,7 @@ public abstract class Manager
 }
 ```
 
-实现解耦解耦抽象类（项目管理类）
+实现解耦抽象类（项目管理类）
 ```
 public class ProjectManager : Manager
 {
@@ -121,7 +121,7 @@ public class ProjectManager : Manager
 }
 ```
 
-实现解耦解耦抽象类（产品管理类）
+实现解耦抽象类（产品管理类）
 ```
 public class ProductManger : Manager
 {
